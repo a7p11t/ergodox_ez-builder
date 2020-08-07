@@ -110,10 +110,10 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
     // Right
     /**/ XXXXXXXX, XXXXXXXX, XXXXXXXX, XXXXXXXX, XXXXXXXX, XXXXXXXX, KC_NLCK ,
-    /**/ ________, XXXXXXXX, KC_P7   , KC_P8   , KC_P9   , KC_PSLS , XXXXXXXX,
-    /**/           XXXXXXXX, KC_P4   , KC_P5   , KC_P6   , KC_PAST , XXXXXXXX,
-    /**/ ________, XXXXXXXX, KC_P1   , KC_P2   , KC_P3   , KC_PMNS , XXXXXXXX,
-    /**/                     KC_P0   , KC_PDOT , KC_PEQL , KC_PPLS , XXXXXXXX,
+    /**/ ________, XXXXXXXX, XXXXXXXX, KC_P7   , KC_P8   , KC_P9   , KC_PSLS ,
+    /**/           XXXXXXXX, XXXXXXXX, KC_P4   , KC_P5   , KC_P6   , KC_PAST ,
+    /**/ ________, XXXXXXXX, XXXXXXXX, KC_P1   , KC_P2   , KC_P3   , KC_PMNS ,
+    /**/                     XXXXXXXX, KC_P0   , KC_PDOT , KC_PEQL , KC_PPLS ,
 
     /**/ ________, ________,
     /**/ ________,
