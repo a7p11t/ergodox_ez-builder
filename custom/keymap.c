@@ -75,9 +75,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 [MDIA] = LAYOUT_ergodox(
     // Left
     /**/ ________, KC_F1   , KC_F2   , KC_F3   , KC_F4   , KC_F5   , RESET   ,
-    /**/ XXXXXXXX, XXXXXXXX, XXXXXXXX, KC_MS_U , XXXXXXXX, XXXXXXXX, ________,
-    /**/ ________, XXXXXXXX, KC_MS_L , KC_MS_D , KC_MS_R , XXXXXXXX,
-    /**/ ________, XXXXXXXX, XXXXXXXX, KC_BTN1 , KC_BTN2 , XXXXXXXX, ________,
+    /**/ XXXXXXXX, KC_BTN1 , KC_MS_U , KC_BTN2 , KC_WH_U , XXXXXXXX, ________,
+    /**/ ________, KC_MS_L , KC_MS_D , KC_MS_R , KC_WH_D , XXXXXXXX,
+    /**/ ________, XXXXXXXX, XXXXXXXX, XXXXXXXX, XXXXXXXX, XXXXXXXX, ________,
     /**/ KC_LEFT , KC_DOWN , KC_UP   , KC_RIGHT, ________,
 
     /**/                                                   ________, ________,
