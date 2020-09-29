@@ -21,6 +21,7 @@ enum custom_keycodes {
 #define ________ KC_TRNS
 #define A_MEH MEH_T(KC_NO)
 #define A_IME LCTL(KC_SPACE)
+#define CTL_ALT LCTL(KC_LALT)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
@@ -33,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /**/ KC_LCTRL, KC_LALT , XXXXXXXX, XXXXXXXX, XXXXXXXX,
 
     /**/                                                   A_IME   , KC_ESC  ,
-    /**/                                                             KC_LSFT ,
+    /**/                                                             CTL_ALT ,
     /**/                                         KC_LGUI , KC_SPC  , MO(MDIA),
 
     // Right
