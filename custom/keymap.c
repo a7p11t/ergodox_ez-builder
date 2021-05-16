@@ -34,7 +34,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     /**/ KC_LCTRL, KC_LALT , XXXXXXXX, XXXXXXXX, XXXXXXXX,
 
     /**/                                                   A_IME   , KC_ESC  ,
-    /**/                                                             CTL_ALT ,
+    /**/                                                             KC_RALT ,
     /**/                                         KC_LGUI , KC_SPC  , MO(MDIA),
 
     // Right
